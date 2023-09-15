@@ -13,7 +13,7 @@ result=model.predict(source=f"{img_name}",save=True)    #the model makes the bou
 pic=im.open(f"runs\\detect\\predict\\{img_name}")
 pic.show(f"bounding-boxes-{img_name}")      #the image pops up in a window
 
-shutil.move(f"runs\\detect\\predict\\{img_name}", f"predictions\\modified-{img_name}")  #asve predicted images into a prediction folder
+shutil.move(f"runs\\detect\\predict\\{img_name}", f"predictions\\modified-{img_name}")  #save predicted images into a prediction folder
 os.rmdir("runs\\detect\\predict")
 
 
