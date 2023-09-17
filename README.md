@@ -30,14 +30,17 @@ to test any images or mp4 videos, upload them into the run time and place their 
 * 47 training images
 * 20 validation images
 * 9 testing images
-
+  
 The dataset was annotated using [the Roboflow annotator](https://roboflow.com/annotate)
+
 ---------------------------------
 
 
-### The boundarymaker folder contains the model, main.py file, adn a sample image
+### The boundarymaker folder contains the model, main.py file, and a sample image
 make sure the `predictions` folder and the `model.pt` file are both present within the boundarymaker folder
 
 A `sample-image.jpg` is provided for testing
 
 Upload any images to the boundarymaker folder and input its name when running the code
+
+Camera input option is also available
