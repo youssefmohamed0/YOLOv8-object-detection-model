@@ -38,6 +38,6 @@ The dataset was annotated using [the Roboflow annotator](https://roboflow.com/an
 ### The boundarymaker folder contains the model, main.py file, adn a sample image
 make sure the `predictions` folder and the `model.pt` file are both present within the boundarymaker folder
 
-By default the model takes the `sample-image.jpg` provided and adds bouning boxes to it
+A `sample-image.jpg` is provided for testing
 
 Upload any images to the boundarymaker folder and input its name when running the code
