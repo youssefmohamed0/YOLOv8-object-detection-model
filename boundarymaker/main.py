@@ -12,7 +12,7 @@ model=YOLO("model.pt")
 if choice==2:
     print("Smile to the camera :)")
     time.sleep(2)
-    cam=cv2.VideoCapture(0)
+    cam=cv2.VideoCapture(0)    #if this doesn't work try changing the '0' to '1' or '2', '0' should work on integrated webcams
     if cam.isOpened():
         ret, frame = cam.read()
         result = model.predict(source=frame, save=True)
