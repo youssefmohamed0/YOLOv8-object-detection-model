@@ -1,4 +1,4 @@
-# YOLOv8 Object Detection Model
+# YOLOv8 Shape Detection Model
 _______________________________
 This is an object detection model created using the YOLOv8.
 The dataset used for training the model was part obtained from roboflow (already annotated) and part obtained and annotated by myself
