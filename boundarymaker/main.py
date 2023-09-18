@@ -36,3 +36,5 @@ elif choice==1:
     os.rmdir("runs\\detect\\predict")
 else:
     print("Inavlid input")
+os.rmdir("runs\\detect")
+os.rmdir("runs")
