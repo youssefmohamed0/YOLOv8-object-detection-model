@@ -7,7 +7,9 @@ Links to the pre annotated datasets i cloned:
 ----------
 		https://universe.roboflow.com/w0/shapess
  ----
-		https://universe.roboflow.com/pusan-univ-agrqj/shpae-detect
+		https://universe.roboflow.com/kau-vcyoc/shape-detection-ooipe
+----
+  		https://universe.roboflow.com/iium-deep-learning-course/shapes-detection-yolo
 
 _______________________________________________
 
