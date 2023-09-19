@@ -10,6 +10,8 @@ Links to the pre annotated datasets i cloned:
 		https://universe.roboflow.com/kau-vcyoc/shape-detection-ooipe
 ----
   		https://universe.roboflow.com/iium-deep-learning-course/shapes-detection-yolo
+---
+		https://universe.roboflow.com/ucl-tfuwe/hi-q6i86
 
 _______________________________________________
 
@@ -34,6 +36,8 @@ to test any images or mp4 videos, upload them into the run time and place their 
 * 9 testing images
   
 The dataset was annotated using [the Roboflow annotator](https://roboflow.com/annotate)
+
+[Link to the full dataset download](https://universe.roboflow.com/youssef-mohamed-dylvh/object-detection-0wrzz/dataset/2/download)
 
 ---------------------------------
 
