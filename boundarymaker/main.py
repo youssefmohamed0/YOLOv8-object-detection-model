@@ -8,7 +8,7 @@ import time
 ###upload the desired image to the boundrymaker folder
 print("Do you want to upload an image or use camera?")
 choice=int(input("1)Image\n2)Camera"))
-model=YOLO("best-model.pt")    #assigning the model
+model=YOLO("final-model.pt")    #assigning the model
 if choice==2:
     print("Smile to the camera :)")
     time.sleep(2)
