@@ -3,7 +3,7 @@ _______________________________
 This is an object detection model created using the YOLOv8.
 The dataset used for training the model was part obtained from roboflow (already annotated) and part obtained and annotated by myself
 
-Links to the pre annotated datasets i cloned:
+Links to the pre annotated datasets I cloned:
 ----------
 		https://universe.roboflow.com/w0/shapess
  ----
@@ -18,6 +18,8 @@ _______________________________________________
 
 ## Guide
 ### The jupyter notebook contains the code used for traing the model
+First download the dataset zip file from the link down below
+
 To train the model upload the dataset zip file into the runtime of the jupyter notebook (/content if in google collab)
 
 Running all cells will unzip the dataset, train the model, validate the model, and then test the model with the test images provided within the dataset
@@ -29,11 +31,11 @@ to test any images or mp4 videos, upload them into the run time and place their 
 	model=YOLO("/content/runs/detect/train/weights/best.pt")
 	result=model.predict(source="your/content/here",save=True)
 ----------------------------------
-### The dataset contains 76 images with 476 annotations
+### The dataset contains 1812 images:
 
-* 47 training images
-* 20 validation images
-* 9 testing images
+* 1812 training images
+* 32 validation images
+* 8 testing images
   
 The dataset was annotated using [the Roboflow annotator](https://roboflow.com/annotate)
 
