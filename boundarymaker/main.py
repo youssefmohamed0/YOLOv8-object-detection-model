@@ -9,10 +9,10 @@ import time
 print("Do you want to upload an image or use camera?")
 choice=int(input("1)Image\n2)Camera"))
 model=YOLO("final-model.pt")    #assigning the model
+cam=cv2.VideoCapture(0)    #if this doesn't work try changing the '0' to '1' or '2', '0' should work on integrated webcams
 if choice==2:
     print("Smile to the camera :)")
     time.sleep(2)
-    cam=cv2.VideoCapture(0)    #if this doesn't work try changing the '0' to '1' or '2', '0' should work on integrated webcams
     if cam.isOpened():    #check to see if camera can be opened
         ret, frame = cam.read()      #frame is the captured picture
         result = model.predict(source=frame, save=True)    #add the bounding boxes using the model for prediction
